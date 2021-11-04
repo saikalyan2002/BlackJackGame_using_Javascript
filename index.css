@@ -1,0 +1,62 @@
+h1{
+    color:goldenrod;
+    margin-top:15vw;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(table.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align:center;
+    font-weight:bold;
+    
+}
+p{
+    color:white;
+}
+#message-el
+{
+    font-style:italic;
+}
+ 
+#startgame-el
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:120%;
+    color:#016f32;
+    width:150px;
+    background-color: goldenrod;
+    padding:1vw;
+    border-radius:2vw;
+    border:none;
+}
+#startgame-el:hover
+{
+    background-color: rgb(192, 139, 6);
+}
+
+#newcard-el
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:120%;
+    color:#016f32;
+    width:150px;
+    background-color: goldenrod;
+    padding:1vw;
+    border-radius:2vw;
+    border:none;
+    margin-left:1%;
+}
+#newcard-el:hover
+{
+    background-color: rgb(192, 139, 6);
+}
+@media(max-width:325px)
+{
+    #newcard-el
+    {
+        display:block;
+        margin:auto;
+        margin-top:2%;
+    }
+}
